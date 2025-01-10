@@ -1,7 +1,2 @@
-let now = new Date()
-console.log(now)
-console.log(now.getDate())
-console.log(now.getFullYear())
-console.log(now.getMonth())
-console.log(now.toLocaleDateString('pt-BR'))
-console.log(now.toLocaleTimeString('pt-BR'))
+let cars = ['palio 98', 'toro', 'uno', 10, true, new Date(), function(){}]
+console.log(cars)
