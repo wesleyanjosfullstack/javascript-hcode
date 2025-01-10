@@ -1,5 +1,5 @@
-function somar() {
-    console.log(5 + 7)
+function somar(x , y) {
+    return x + y
 }
 
-somar()
+console.log(somar(10, 20))
