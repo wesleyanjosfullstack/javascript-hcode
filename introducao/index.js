@@ -1,3 +1,5 @@
-let n = 7
+function somar() {
+    console.log(5 + 7)
+}
 
-for(let c = 0; c <= 10; c++) console.log(`${n} X ${c} = ${c * n}`)
+somar()
