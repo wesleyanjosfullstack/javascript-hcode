@@ -1,11 +1,4 @@
-let a = 10
-const b = 20
+let color = 'green'
 
-console.log(a == b)
-console.log(a === b)
-console.log(a != b)
-console.log(a !== b)
-
-console.log(a != b && typeof a == 'string')
-console.log(a != b || typeof a == 'string')
-console.log(a == b || typeof a == 'string')
+if (color === 'green') console.log('Siga em frente !')
+    else console.log('Pare !')
