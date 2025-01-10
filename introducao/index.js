@@ -1,5 +1,5 @@
-console.log(
-    (function(x, y, op) {
+let calc = (x, y, op) => {
     return eval(`${x} ${op} ${y}`)
-})(1, 2, '*')
-)
+}
+
+console.log(calc(5, 2, '*'))
