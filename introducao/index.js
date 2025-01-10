@@ -2,4 +2,5 @@ function somar(x , y) {
     return x + y
 }
 
-console.log(somar(10, 20))
+let result = somar(10, 15)
+console.log(result)
