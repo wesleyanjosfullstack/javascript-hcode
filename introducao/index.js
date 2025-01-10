@@ -1,6 +1,8 @@
-function somar(x , y) {
-    return x + y
+function calc(x , y, op) {
+    return eval(`${x} ${op} ${y}`)
 }
 
-let result = somar(10, 15)
-console.log(result)
+let r = calc(1, 2, '+')
+console.log(r)
+r = calc(1, 2, '*')
+console.log(r)
