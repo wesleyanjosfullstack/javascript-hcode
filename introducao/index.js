@@ -1,5 +1,6 @@
-let cars = ['palio 98', 'toro', 'uno', 10, true, new Date(), function(){}]
+let smartphone = function() {
+    let color = 'silver'
+}
 
-cars.forEach(function(value, index){
-    console.log(index, value)
-})
+let obj = new smartphone()
+console.log(obj)
