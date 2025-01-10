@@ -1,3 +1,4 @@
-var hello = 'Hello'
+let a = 10
+const b = 20
 
-console.log(hello)
+console.log(a == b)
