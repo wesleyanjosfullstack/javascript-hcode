@@ -13,6 +13,6 @@ if (color === 'green') {
     console.log('siga !')
 } else if (color === 'yellow') {
     console.log('atenção !')
-} else {
+} else if (color === 'red' ) {
     console.log('pare !')
 }
