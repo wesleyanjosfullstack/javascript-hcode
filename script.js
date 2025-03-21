@@ -16,3 +16,19 @@ if (color === 'green') {
 } else if (color === 'red' ) {
     console.log('pare !')
 }
+
+color = 'blue'
+
+switch (color) {
+    case 'green':
+        console.log('siga !')
+        break
+    case 'yellow':
+        console.log('atenção !')
+        break
+    case 'red':
+        console.log('pare !')
+        break
+    default:
+        console.log('não sei !')
+}
